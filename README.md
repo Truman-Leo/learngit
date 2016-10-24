@@ -18,12 +18,14 @@ Lauch 'Git Bash' -> Creat new folder as your new repository corresponding to you
 
 打开‘Git Bash’ -> 新建文件夹，你可以认为此文件夹为你的项目名称 -> 使用git init初始化文件夹，init命令把这个目录变成git可以管理的仓库。
 
-'''
-mkdir learngit
-ls -a
-git init
-ls -a
-'''
+> mkdir learngit
+
+> ls -a
+
+> git init
+
+> ls -a
+
 
 ## add remote repository
 
