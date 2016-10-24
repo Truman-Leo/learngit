@@ -46,7 +46,7 @@ Creat new file under the folder, the file contains your text or codes. That depe
 
 > **git add** [new.file] 
 
-###　git commit
+### git commit
 
 Once you update your text or code, you need commit the changes to corresponding git repository. 
 
