@@ -4,6 +4,7 @@
 - 在本地PC上安装git（Windowns）
 - creat repository in local PC
 - add remote repository 
+- Git commands
 - ...
 
 ## install git in your PC
@@ -25,6 +26,36 @@ Lauch 'Git Bash' -> Creat new folder as your new repository corresponding to you
 > git init
 
 > ls -a
+
+
+## Git commands
+
+### git init
+
+See previous section.
+
+参考前述。
+
+### git add
+
+Creat new file under the folder, the file contains your text or codes. That depends on you -> add the file to git repository.
+
+在文件夹下新建文件，文件可以包含你的博客、代码等，内容根据你的需要而定 -> 将此文件添加到git仓库。
+
+> cd [newFolder]
+
+> **git add** [new.file] 
+
+###　git commit
+
+Once you update your text or code, you need commit the changes to corresponding git repository. 
+
+> **git commit** -m "Your description text/your note on this changes"
+
+简单解释一下git commit命令，-m后面输入的是本次提交的说明，可以输入任意内容。
+
+### git status
+
 
 
 ## add remote repository
