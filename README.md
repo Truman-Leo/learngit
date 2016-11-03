@@ -69,4 +69,10 @@ pull the changes in the remote repository to local repository. synchronize the l
 
 ### git add
 
+## FAQ
 
+### How to push multiple 'git commit'? 
+
+According to my practice, you need submit 'git add [The file changed]' -> 'git commit -m [The descrition]' -> git push. But, is that bothersome? why not git push once after multiple commit? Theoretically, once i add a file into git repository,the file should be ready for any git commands that work at the right time. However, I am requested to return the starting point from 'git add [the file to add]'. 
+
+> maybe, I still don't understand how the git commands work underlying. Google it. (2016-11-03)
