@@ -56,7 +56,15 @@ Once you update your text or code, you need commit the changes to corresponding 
 
 ### git status
 
+check current status of local git repository.
 
+### git pull
+
+pull the changes in the remote repository to local repository. synchronize the local folder with the remove one. The usage is:
+
+> git pull origin 
+
+### git fetch
 
 ## add remote repository
 
