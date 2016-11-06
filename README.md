@@ -83,6 +83,10 @@ On the reason to this, I finally find a detailed explanation in a [git tutorial]
 ### fatal: refuse to merge unrelated histories.
 
 According to my practice, git rm the file, and git clone remote repository as local again.
-I tried to git rm the file, and git init again -> git pull, and I failed to make the origin and master the same line. 
+I tried to git rm the file, and git init again -> git pull, and I failed to make the origin and master the same line.
+
+### how to add a folder in git repository?
+
+git doesn't store empty folders. Just make sure there's a file in the folder like *doc/foo.txt* and run git add doc or *git add doc/foo.txt* and the folder will be added to your local repo once you've committed (and appear on github once you've pushed it).
 
 ### any more?
