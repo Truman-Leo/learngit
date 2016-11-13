@@ -67,6 +67,12 @@ pull the changes in the remote repository to local repository. synchronize the l
 
 ### git clone
 
+Once you create a new repository online, you can clone it on your local disk by:
+
+> $ git clone git@github.com:[YourCount]/repositoryToBeCloned.git
+> $ cd [repositoryToBeCloned]
+> $ ls
+
 ### git add
 
 ## FAQ
