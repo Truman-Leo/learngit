@@ -70,7 +70,9 @@ pull the changes in the remote repository to local repository. synchronize the l
 Once you create a new repository online, you can clone it on your local disk by:
 
 > $ git clone git@github.com:[YourCount]/repositoryToBeCloned.git
+
 > $ cd [repositoryToBeCloned]
+
 > $ ls
 
 ### git add
@@ -94,5 +96,10 @@ I tried to git rm the file, and git init again -> git pull, and I failed to make
 ### how to add a folder in git repository?
 
 git doesn't store empty folders. Just make sure there's a file in the folder like *doc/foo.txt* and run git add doc or *git add doc/foo.txt* and the folder will be added to your local repo once you've committed (and appear on github once you've pushed it).
+
+### how to delete files, or folders in your local repository?
+
+> git rm fileToBeRemoved
+
 
 ### any more?
