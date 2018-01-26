@@ -2,9 +2,8 @@
 
 ## Content
 - 在本地PC上安装git（Windowns）
-- creat repository in local PC
-- add remote repository 
-- Git commands
+- git usage guide
+- 
 - ...
 
 ## install git in your PC
@@ -13,7 +12,33 @@ Download and install git-for-windows. Once you successfully install it, you will
 
 下载并安装git-for-windows安装程序。一旦安装成功，你可以在‘开始’菜单下看到‘Git’->'Git bash'启动选项。
 
-## creat repository in local PC
+## git usage guide
+
+> if you plan to work from your github cloud repository, follow this.
+
+### getting started - 1st time git configuration
+```
+# Your identity: set your user name and email addr.
+git config --global user.name "Yizhao Luan"
+git config --global user.email luanyz_leo@163.com
+
+# check your settings
+git config --list
+```
+
+### clone repository from github online to your local disk
+```
+# clone a copy of an existing repository.
+git clone https://github.com/trumanLuan/projectTrack
+```
+
+### recording changes to the repository
+
+```
+
+```
+
+### creat repository in local PC
 
 Lauch 'Git Bash' -> Creat new folder as your new repository corresponding to your new project -> init the folder to make it can be orangized by git command.
 
