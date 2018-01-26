@@ -19,8 +19,8 @@ Download and install git-for-windows. Once you successfully install it, you will
 ### getting started - 1st time git configuration
 ```
 # Your identity: set your user name and email addr.
-git config --global user.name "Yizhao Luan"
-git config --global user.email luanyz_leo@163.com
+git config --global user.name "[your name]"
+git config --global user.email [your email addr]
 
 # check your settings
 git config --list
