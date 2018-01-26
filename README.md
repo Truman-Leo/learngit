@@ -34,7 +34,8 @@ git clone https://github.com/trumanLuan/projectTrack
 
 ### record changes, and push the changes to local repository to cloud repository
 ```
-# Just one note: if the repository doesn't exist in Github, first you will have to create it [click here](https://gist.github.com/c0ldlimit/4089101)
+# Just one note: if the repository doesn't exist in Github, first you will have to create it 
+[click here](https://gist.github.com/c0ldlimit/4089101)
 type NUL > README.md
 git add README.md
 git commit -m "my first commit"
