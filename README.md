@@ -1,10 +1,5 @@
 # learngit
 
-## Content
-- 在本地PC上安装git（Windowns）
-- git usage guide
-- 
-- ...
 
 ## install git in your PC
 
@@ -43,69 +38,43 @@ git remote add origin https://github.com/c0ldlimit/vimcolors.git
 git push -u origin master
 ```
 
-### creat repository in local PC
+### creat and manage repository using git commands locally
 
 Lauch 'Git Bash' -> Creat new folder as your new repository corresponding to your new project -> init the folder to make it can be orangized by git command.
 
 打开‘Git Bash’ -> 新建文件夹，你可以认为此文件夹为你的项目名称 -> 使用git init初始化文件夹，init命令把这个目录变成git可以管理的仓库。
 
-> mkdir learngit
+```
+mkdir learngit  # create a dir using shell/win cmd
+git init # git envir initiation
 
-> ls -a
+type NUL > new.file # new a file using win cmd
+touch new.file # new a file using linux cmd
 
-> git init
+git add new.file
+git commit -m "add new.file"
+```
 
-> ls -a
+
+## KEY Git commands box
+
+> - git init
+> - git add
+> - git commit  # **git commit** -m "Your description text/your note on this changes"
+> - git status  # check current status of local git repository
+> - git pull  # pull the changes in the remote repository to local repository
+> - git fetch
+> - git clone
+
+The examples of these cmds are:
+```
+git pull origin
+
+git clone git@github.com:[YourCount]/repositoryToBeCloned.git
 
 
-## Git commands
+```
 
-### git init
-
-See previous section.
-
-参考前述。
-
-### git add
-
-Creat new file under the folder, the file contains your text or codes. That depends on you -> add the file to git repository.
-
-在文件夹下新建文件，文件可以包含你的博客、代码等，内容根据你的需要而定 -> 将此文件添加到git仓库。
-
-> cd [newFolder]
-
-> **git add** [new.file] 
-
-### git commit
-
-Once you update your text or code, you need commit the changes to corresponding git repository. 
-
-> **git commit** -m "Your description text/your note on this changes"
-
-简单解释一下git commit命令，-m后面输入的是本次提交的说明，可以输入任意内容。
-
-### git status
-
-check current status of local git repository.
-
-### git pull
-
-pull the changes in the remote repository to local repository. synchronize the local folder with the remove one. The usage is:
->git pull origin
-
-### git fetch
-
-### git clone
-
-Once you create a new repository online, you can clone it on your local disk by:
-
-> $ git clone git@github.com:[YourCount]/repositoryToBeCloned.git
-
-> $ cd [repositoryToBeCloned]
-
-> $ ls
-
-### git add
 
 ## FAQ
 
