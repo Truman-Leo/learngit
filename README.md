@@ -56,23 +56,26 @@ git commit -m "add new.file"
 ```
 
 
-## KEY Git commands box
+## KEY git commands box
 
-> - git init
-> - git add
-> - git commit  # **git commit** -m "Your description text/your note on this changes"
-> - git status  # check current status of local git repository
-> - git pull  # pull the changes in the remote repository to local repository
-> - git fetch
-> - git clone
+- git config 
+- git init
+- git add
+- git commit  
+- git status  
+- git pull 
+- git fetch
+- git clone
+- git push
 
 The examples of these cmds are:
+
 ```
+## [for what kind of usage]
 git pull origin
 
+## [for what kind of usage]
 git clone git@github.com:[YourCount]/repositoryToBeCloned.git
-
-
 ```
 
 
